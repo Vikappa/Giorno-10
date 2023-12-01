@@ -21,7 +21,6 @@ for (let iESERCIZIO1 = 0; iESERCIZIO1 < pets.length; iESERCIZIO1++) {
 */
 console.log("ESERCIZIO 2")
 
-let sorted = false
 const orderedPets = pets.slice();
 
 orderedPets.sort()
@@ -86,10 +85,10 @@ function inventaTarga() {
 }
 
 
-for (let iESERCIZIO4 = 0; iESERCIZIO4 < cars.length; iESERCIZIO4++) {
+for (let iESERCIZIO5 = 0; iESERCIZIO5 < cars.length; iESERCIZIO5++) {
 
-  cars[iESERCIZIO4].plate = inventaTarga()
-  console.log(cars[iESERCIZIO4])
+  cars[iESERCIZIO5].plate = inventaTarga()
+  console.log(cars[iESERCIZIO5])
 }
 
 /* ESERCIZIO 6
@@ -102,7 +101,7 @@ cars.push({
   model: 'Musa',
   color: 'silvergray',
   trims: ['cheap', 'cheapier'],
-  plate: 'AB123CD'
+  plate: inventaTarga()
 })
 
 for (let iESERCIZIO6 = 0; iESERCIZIO6 < cars.length; iESERCIZIO6++) {
